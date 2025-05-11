@@ -12,3 +12,4 @@ C:\Users\YYEDUGUR\OneDrive - Capgemini\Documents\WebApiUsingVSCode\CSharpPractic
 C:\Users\YYEDUGUR\OneDrive - Capgemini\Documents\WebApiUsingVSCode\CSharpPractice\CSharp\obj\Debug\net8.0\CSharp.pdb
 C:\Users\YYEDUGUR\OneDrive - Capgemini\Documents\WebApiUsingVSCode\CSharpPractice\CSharp\obj\Debug\net8.0\CSharp.genruntimeconfig.cache
 C:\Users\YYEDUGUR\OneDrive - Capgemini\Documents\WebApiUsingVSCode\CSharpPractice\CSharp\obj\Debug\net8.0\ref\CSharp.dll
+C:\Users\YYEDUGUR\OneDrive - Capgemini\Documents\WebApiUsingVSCode\CSharpPractice\CSharp\obj\Debug\net8.0\CSharp.sourcelink.json

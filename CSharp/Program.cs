@@ -35,7 +35,7 @@ namespace CsharpPractice
             //RemoveDuplicateCharsFromString.RemoveDuplicate(input);
             // Substrings.Substring(input);
             //SortStringArrayUsingMethod.SortUsingMethod(input);
-            // ReverseStrings.ReverseString(input);
+            ReverseStrings.ReverseString(input);
             //CharacterCountInStrings.CharacterCountInString(input);
             //CountAlphaNumericSymbols.CountAlphaNumericSymbol(input);
             //SortStringArrayInAO.SortStringArray(input);

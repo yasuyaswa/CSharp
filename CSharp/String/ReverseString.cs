@@ -13,7 +13,7 @@ public class ReverseStrings
         int l = input.Length;
         char[] CharArray = new char[l];
 
-        for (int i = 0; i < l; i++)
+        for (int i = l - 1; i >= 0; i--)
         {
             CharArray[i] = input[l - i - 1];
         }
