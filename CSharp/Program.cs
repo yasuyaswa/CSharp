@@ -32,10 +32,10 @@ namespace CsharpPractice
             //++n;
             //ListPrime.prime(n);
             //Exception.excep(4,-2);
-            //RemoveDuplicateCharsFromString.RemoveDuplicate(input);
+            RemoveDuplicateCharsFromString.RemoveDuplicate(input);
             // Substrings.Substring(input);
             //SortStringArrayUsingMethod.SortUsingMethod(input);
-            ReverseStrings.ReverseString(input);
+            // ReverseStrings.ReverseString(input);
             //CharacterCountInStrings.CharacterCountInString(input);
             //CountAlphaNumericSymbols.CountAlphaNumericSymbol(input);
             //SortStringArrayInAO.SortStringArray(input);
