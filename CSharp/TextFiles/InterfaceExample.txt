@@ -1,0 +1,41 @@
+using System;
+namespace Program{
+    
+    public interface IAnimal{
+        void Sound();
+        void Move();
+    }
+    
+    public class Dog: IAnimal{
+        public void Sound(){
+            Console.WriteLine("bow! bow!");
+        }
+        public void Move(){
+            Console.WriteLine("dog runs");
+        }
+    }
+    
+    public class Cat: IAnimal{
+        public void Sound(){
+            Console.WriteLine("Meow Meow!");
+        }
+        public void Move(){
+            Console.WriteLine("cat walks");
+        }
+    }
+    
+    class Practice{
+        static void Main(string[] args){
+            IAnimal dog = new Dog();
+            IAnimal cat = new Cat();
+            
+            dog.Sound();
+            dog.Move();
+            
+            cat.Sound();
+            cat.Move();
+            
+            
+        }
+    }
+}
