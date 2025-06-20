@@ -12,27 +12,46 @@ public class RemoveDuplicateCharsFromString
         //     }
         // }
         // Console.WriteLine(result);
-        int l = input.Length;
-        char[] CharArr = input.ToCharArray();
-        int index = 0;
+        //Second method
+        // int l = input.Length;
+        // char[] CharArr = input.ToCharArray();
+        // int index = 0;
 
-        for (int i = 0; i < l; i++)
+        // for (int i = 0; i < l; i++)
+        // {
+        //     bool isDuplicate = false;
+        //     for (int j = 0; j < i; j++)
+        //     {
+        //         if (CharArr[i] == CharArr[j])
+        //         {
+        //             isDuplicate = true;
+        //             break;
+        //         }
+        //     }
+        //     if (!isDuplicate)
+        //     {
+        //         CharArr[index++] = CharArr[i];
+        //     }
+        // }
+        // string result = new string(CharArr, 0, index);
+        // Console.WriteLine(result);
+
+        Dictionary<char, int> CharCount = new Dictionary<char, int>();
+
+        foreach (char c in input)
         {
-            bool isDuplicate = false;
-            for (int j = 0; j < i; j++)
+            if (CharCount.ContainsKey(c))
             {
-                if (CharArr[i] == CharArr[j])
-                {
-                    isDuplicate = true;
-                    break;
-                }
+                CharCount[c]++;
             }
-            if (!isDuplicate)
+            else
             {
-                CharArr[index++] = CharArr[i];
+                CharCount[c] = 1;
             }
         }
-        string result = new string(CharArr, 0, index);
-        Console.WriteLine(result);
+        foreach (var item in CharCount)
+        {
+            Console.Write(item.Key + " ");
+        }
     }
 }

@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using CSharp.Integer;
 // using CSharp.Integer;
 // using CSharp.String;
 
@@ -14,8 +15,8 @@ namespace CsharpPractice
         public static void Main()
         {
             Console.Write("Enter the input: ");
-            // int n=Convert.ToInt32(Console.ReadLine());
-            string? input = Console.ReadLine();
+            int n = Convert.ToInt32(Console.ReadLine());
+            // string? input = Console.ReadLine();
             //Console.WriteLine(fibonacci.fib(n));
             //Console.WriteLine(Armstrong.Arm(n));
             //tables.table(n);
@@ -32,7 +33,7 @@ namespace CsharpPractice
             //++n;
             //ListPrime.prime(n);
             //Exception.excep(4,-2);
-            RemoveDuplicateCharsFromString.RemoveDuplicate(input);
+            // RemoveDuplicateCharsFromString.RemoveDuplicate(input);
             // Substrings.Substring(input);
             //SortStringArrayUsingMethod.SortUsingMethod(input);
             // ReverseStrings.ReverseString(input);
@@ -68,6 +69,7 @@ namespace CsharpPractice
             // Calculator.Calculators();
             // CountingCharInStringUsingDictionary.CountCharInStringUsingDictionary(input!);
             // ReverseStringFromTwoWords.ReverseStringFromTwoWord(input!);
+            Console.WriteLine(PrimeCheck.PrimeChecks(n));
         }
     }
 }
