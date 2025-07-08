@@ -6,19 +6,23 @@ public class ReverseStringFromTwoWords
 {
     public static void ReverseStringFromTwoWord(string input)
     {
-        string[] words = input.Split(' ');
-        string a = words[0];
-        string b = words[1];
-        string result1 = string.Empty;
-        string result2 = string.Empty;
-        for (int i = a.Length - 1; i >= 0; i--)
+        string[] words = input.Split(" ");
+        string str1 = words[0];
+        string str2 = words[1];
+
+        StringBuilder r1 = new StringBuilder();
+        StringBuilder r2 = new StringBuilder();
+
+        for (int i = str1.Length - 1; i >= 0; i--)
         {
-            result1 += a[i];
+            r1.Append(str1[i]);
         }
-        for (int j = b.Length - 1; j >= 0; j--)
+
+        for (int i = str2.Length - 1; i >= 0; i--)
         {
-            result2 += b[j];
+            r2.Append(str2[i]);
         }
-        Console.WriteLine(result1 + " " + result2);
+
+        Console.WriteLine(r1 + " " + r2);
     }
 }
