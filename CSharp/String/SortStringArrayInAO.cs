@@ -5,7 +5,7 @@ public class SortStringArrayInAO
         char[] a = input.ToCharArray();
         int l = a.Length;
 
-        for (int i = 0; i < l; i++)
+        for (int i = 0; i < l - 1; i++)
         {
             for (int j = 0; j < l - i - 1; j++)
             {
