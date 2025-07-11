@@ -71,7 +71,7 @@ namespace CsharpPractice
             // CountingCharInStringUsingDictionary.CountCharInStringUsingDictionary(input!);
             // ReverseStringFromTwoWords.ReverseStringFromTwoWord(input!);
             //Console.WriteLine(PrimeCheck.PrimeChecks(n));
-            RemoveDuplicatesInArray.RemoveDuplicates();
+            // RemoveDuplicatesInArray.RemoveDuplicates();
         }
     }
 }
