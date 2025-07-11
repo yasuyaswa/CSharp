@@ -53,5 +53,9 @@ public class RemoveDuplicateCharsFromString
         {
             Console.Write(item.Key + " ");
         }
+
+        //Second method using Linq
+        // string UniqueStr = new String(input.Distinct().OrderBy(o=>o).ToArray());
+        // Console.WriteLine(UniqueStr);
     }
 }
