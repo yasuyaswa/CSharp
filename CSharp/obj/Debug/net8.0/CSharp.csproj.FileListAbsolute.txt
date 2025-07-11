@@ -13,3 +13,11 @@ C:\Users\YYEDUGUR\OneDrive - Capgemini\Documents\WebApiUsingVSCode\CSharpPractic
 C:\Users\YYEDUGUR\OneDrive - Capgemini\Documents\WebApiUsingVSCode\CSharpPractice\CSharp\obj\Debug\net8.0\CSharp.genruntimeconfig.cache
 C:\Users\YYEDUGUR\OneDrive - Capgemini\Documents\WebApiUsingVSCode\CSharpPractice\CSharp\obj\Debug\net8.0\ref\CSharp.dll
 C:\Users\YYEDUGUR\OneDrive - Capgemini\Documents\WebApiUsingVSCode\CSharpPractice\CSharp\obj\Debug\net8.0\CSharp.sourcelink.json
+C:\Users\Yashvanth Reddy\source\repos\yasuyaswa\CSharp\CSharp\obj\Debug\net8.0\CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yashvanth Reddy\source\repos\yasuyaswa\CSharp\CSharp\obj\Debug\net8.0\CSharp.AssemblyInfoInputs.cache
+C:\Users\Yashvanth Reddy\source\repos\yasuyaswa\CSharp\CSharp\obj\Debug\net8.0\CSharp.AssemblyInfo.cs
+C:\Users\Yashvanth Reddy\source\repos\yasuyaswa\CSharp\CSharp\obj\Debug\net8.0\CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Yashvanth Reddy\source\repos\yasuyaswa\CSharp\CSharp\obj\Debug\net8.0\CSharp.sourcelink.json
+C:\Users\Yashvanth Reddy\source\repos\yasuyaswa\CSharp\CSharp\obj\Debug\net8.0\CSharp.dll
+C:\Users\Yashvanth Reddy\source\repos\yasuyaswa\CSharp\CSharp\obj\Debug\net8.0\refint\CSharp.dll
+C:\Users\Yashvanth Reddy\source\repos\yasuyaswa\CSharp\CSharp\obj\Debug\net8.0\CSharp.pdb
