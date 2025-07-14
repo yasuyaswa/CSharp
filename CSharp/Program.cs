@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using C__Practice.Integer;
+using C__Practice.String;
 using CSharp.Integer;
 using CSharp.String;
 // using CSharp.Integer;
@@ -73,7 +74,8 @@ namespace CsharpPractice
             // ReverseStringFromTwoWords.ReverseStringFromTwoWord(input!);
             //Console.WriteLine(PrimeCheck.PrimeChecks(n));
             // RemoveDuplicatesInArray.RemoveDuplicates();
-            Console.WriteLine(PalindromeString.Palindrome(input));
+            // Console.WriteLine(PalindromeString.Palindrome(input));
+            ReverseWordsInString.ReverseWords(input);
         }
     }
 }
