@@ -75,7 +75,8 @@ namespace CsharpPractice
             //Console.WriteLine(PrimeCheck.PrimeChecks(n));
             // RemoveDuplicatesInArray.RemoveDuplicates();
             // Console.WriteLine(PalindromeString.Palindrome(input));
-            ReverseWordsInString.ReverseWords(input);
+            // ReverseWordsInString.ReverseWords(input);
+            SwapTwoNumbersWithoutTemp.SwapNumber();
         }
     }
 }
