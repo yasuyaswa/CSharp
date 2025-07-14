@@ -6,6 +6,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using C__Practice.Integer;
 using CSharp.Integer;
+using CSharp.String;
 // using CSharp.Integer;
 // using CSharp.String;
 
@@ -17,7 +18,7 @@ namespace CsharpPractice
         {
             Console.Write("Enter the input: ");
             //int n = Convert.ToInt32(Console.ReadLine());
-            // string? input = Console.ReadLine();
+            string? input = Console.ReadLine();
             //Console.WriteLine(fibonacci.fib(n));
             //Console.WriteLine(Armstrong.Arm(n));
             //tables.table(n);
@@ -72,6 +73,7 @@ namespace CsharpPractice
             // ReverseStringFromTwoWords.ReverseStringFromTwoWord(input!);
             //Console.WriteLine(PrimeCheck.PrimeChecks(n));
             // RemoveDuplicatesInArray.RemoveDuplicates();
+            Console.WriteLine(PalindromeString.Palindrome(input));
         }
     }
 }
