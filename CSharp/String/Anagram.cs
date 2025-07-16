@@ -1,34 +1,57 @@
+using System;
+
 public class Anagram
-{   //It is formed by rearranging the letters of another word or phrase, using all the original letters exactly once.
+{
     public static void Anagrams()
     {
         Console.WriteLine("Enter the string1: ");
-        string? str1 = Console.ReadLine();
+        string? str1 = Console.ReadLine()?.Trim().ToLower();
+
         Console.WriteLine("Enter the string2: ");
-        string? str2 = Console.ReadLine();
+        string? str2 = Console.ReadLine()?.Trim().ToLower();
+
+        if (string.IsNullOrEmpty(str1) || string.IsNullOrEmpty(str2))
+        {
+            Console.WriteLine("Invalid input.");
+            return;
+        }
 
         if (str1.Length != str2.Length)
         {
             Console.WriteLine("Given strings are not anagrams.");
+            return;
+        }
+
+        string sorted1 = SortArray(str1);
+        string sorted2 = SortArray(str2);
+
+        if (sorted1 == sorted2)
+        {
+            Console.WriteLine("Given strings are anagrams.");
         }
         else
         {
-            char[] charArr1 = str1.ToLower().ToCharArray();
-            char[] charArr2 = str2.ToLower().ToCharArray();
+            Console.WriteLine("Given strings are not anagrams.");
+        }
+    }
 
-            Array.Sort(charArr1);
-            Array.Sort(charArr2);
+    public static string SortArray(string input)
+    {
+        char[] CharArr = input.ToCharArray();
 
-            string str1Sorted = new string(charArr1);
-            string str2Sorted = new string(charArr2);
-            if (str1Sorted == str2Sorted)
+        for (int i = 0; i < CharArr.Length - 1; i++)
+        {
+            for (int j = 0; j < CharArr.Length - i - 1; j++)
             {
-                Console.WriteLine("Given strings are anagrams.");
-            }
-            else
-            {
-                Console.WriteLine("Given strings are not anagrams.");
+                if (CharArr[j] > CharArr[j + 1])
+                {
+                    char temp = CharArr[j];
+                    CharArr[j] = CharArr[j + 1];
+                    CharArr[j + 1] = temp;
+                }
             }
         }
+
+        return new string(CharArr);
     }
 }

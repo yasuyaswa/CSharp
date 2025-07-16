@@ -26,5 +26,20 @@ public class ReverseStrings
         //     result.Append(input[i]);
         // }
         // Console.WriteLine(result);
+
+        //using swap left to right
+        // int left = 0;
+        // int right = input.Length - 1;
+        // char[] CharArr = input.ToCharArray();
+        // while (left < right)
+        // {
+        //     char temp = CharArr[left];
+        //     CharArr[left] = CharArr[right];
+        //     CharArr[right] = temp;
+        //     left++;
+        //     right--;
+        // }
+        // string result = new string(CharArr);
+        // Console.WriteLine(result);
     }
 }
