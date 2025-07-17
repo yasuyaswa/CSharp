@@ -19,7 +19,7 @@ namespace CsharpPractice
         {
             Console.Write("Enter the input: ");
             //int n = Convert.ToInt32(Console.ReadLine());
-            string? input = Console.ReadLine();
+            // string? input = Console.ReadLine();
             //Console.WriteLine(fibonacci.fib(n));
             //Console.WriteLine(Armstrong.Arm(n));
             //tables.table(n);
@@ -77,7 +77,8 @@ namespace CsharpPractice
             // Console.WriteLine(PalindromeString.Palindrome(input));
             // ReverseWordsInString.ReverseWords(input);
             // SwapTwoNumbersWithoutTemp.SwapNumber();
-            AddingTwoNumbersWithoutPlus.AddingTwoNumbers();
+            // AddingTwoNumbersWithoutPlus.AddingTwoNumbers();
+            NonDuplicatedElementInArray.NonDuplicateElement();
         }
     }
 }
